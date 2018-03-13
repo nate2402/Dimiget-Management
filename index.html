@@ -10,7 +10,9 @@
 
   <!-- main.js 불러오기 ==> main.js: 글자 fadein과 fadeout 소스가 포함되어있음-->
 
-  <script src="fade.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
 
 
 
@@ -18,46 +20,55 @@
 
 <body>
     <header>
-      <div class="title">
-        <a class="logo" href="http://nate2402.com">NATEWEB</a>
-      </div>
+      <nav class="title">
+        <img src="source/favicon_page_header.png">
+      </nav>
     </header>
-      
-      <link rel="stylesheet" href="style.css">
-      
-      <div class="Introduction">
-        <h1>Hi! My name is Kim-Hwagyun.</h1>
-        <h1>Thank you for visit my introduction site.</h1>
-        <h1>This is my portfolio which I was done and the list that I'm going to do in the future</h1>
-      </div>
-      <div class="Detail">
-        <h3>About me....<h3>
-          NAME: 김화균(Hwagyun Kim) <br>
-          NICKNAME: NATE <br>
-          AGE: 17(15)<br>
-          School: KOREA DIGITAL MEDIA HIGH School<br>
-          DEPARTURE: E-Business 17th.<br>
-      </div>
 
-      <div class="What_I_Can_Do">
-        <h3>I can do like this....</h3>
-          Programing: HTML, CSS, C (a little)<br>
-          Video: Adobe After Effect, Final Cut Pro<br>
-      </div>
-      <div class="Before: I did...">
-        <h3>I did like this...</h3>
-          <a href="http://cloud.nate2402.com/">NATE CLOUD develop/mangement</a><br>
-          Apple developer Beta test (since El Capitan)<br>
-          Microsoft Open Beta test (since windows 8)<br>
-          <a href="https://www.youtube.com/watch?v=fmUYi9lDOJw&t=599s"> Songho Middle School Graduation Video (16th graduation)</a><br>
-          Songho Middle School 2017 Freshman Free Semester Video<br>
-          2016 Songho Middle School Anti School violance campain Video<br>
-          2016 Memory of the <a href="http://www.sewoltruth.com/">Sewol-ferry</a> Affair Video Competition<br>
-      </div>
-      <div class="After: I will...">
-        <h3>I'm going to do like this...</h3>
-        Korea Digital Media High School - School Club apply (Dimiget)<br>
-        <a href="http://가져.ga/dimi">Dimiget Server extent</a><br>
-        <a href="http://cloud.dimiget.com">Dimishare Server manufacture</a><br>x
-      </div>
+      <link rel="stylesheet" href="style.css">
+
+      <div class="all">
+        <div class="Introduction">
+        <br><br>
+          <h1>Hi! My name is Kim-Hwagyun.</h1>
+          <h1>Thank you for visit my introduction site.</h1>
+          <h1>This is my portfolio which I was done</h1>
+          <h1>Why don't you swipe down below?</h1>
+        </div>
+        <div class="Detail">
+          <h2>About me....</h2>
+            <p>NAME: 김화균(Hwagyun Kim) </p>
+            <p>NICKNAME: NATE </p>
+            <p>AGE: 17(15)</p>
+            <p>School: KOREA DIGITAL MEDIA HIGH School</p>
+            <p>DEPARTURE: E-Business 17th.</p>
+        </div>
+
+        <div class="What_Can_I_Do">
+          <h1>I can do like this....</h1>
+            <h2>Programing: <div class="section-content typed1"></div></h2><br>
+            <h2>Video: <div class="section-content typed2"></div></h2><br>
+        </div>
+
+        <div class="Before">
+          <h3>I did like this...</h3>
+            <a href="http://cloud.nate2402.com/">NATE CLOUD develop/mangement</a><br>
+            Apple developer Beta test (since El Capitan)<br>
+            Microsoft Open Beta test (since windows 8)<br>
+            <a href="https://www.youtube.com/watch?v=fmUYi9lDOJw&t=599s"> Songho Middle School Graduation Video (16th graduation)</a><br>
+            Songho Middle School 2017 Freshman Free Semester Video<br>
+            2016 Songho Middle School Anti School violance campain Video<br>
+            2016 Memory of the <a href="http://www.sewoltruth.com/">Sewol-ferry</a> Affair Video Competition<br>
+        </div>
+        <div class="After">
+          <h3>I'm going to do like this...</h3>
+          Korea Digital Media High School - School Club apply (Dimiget)<br>
+          <a href="http://가져.ga/dimi">Dimiget Server extent</a><br>
+          <a href="http://cloud.dimiget.com">Dimishare Server manufacture</a><br>x
+        </div>
+    </div>
+
+      <script src="fade.js"></script>
+      <script src="typing.js"></script>
+      <script src="main.js"></script>
 </body>

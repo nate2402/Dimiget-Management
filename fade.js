@@ -1,4 +1,4 @@
-(document).ready(function () {
+$(document).ready(function () {
     var allBoxes = $("div.Introduction").children("h1");
     transitionBox(null, allBoxes.first());
 });
@@ -14,7 +14,7 @@ function transitionBox(from, to) {
         to.fadeIn(500, function () {
             setTimeout(function () {
                 transitionBox(to, nextTo);
-            }, 1000);
+            }, 3000);
         });
     }
 

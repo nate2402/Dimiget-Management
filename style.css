@@ -1,3 +1,41 @@
-.boxes div {
+html {
+  -webkit-text-size-adjust: none;
+  background: url('../images/background1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  text-decoration-color: #000000;
+  color: white;
+}
+
+h1 {
     display: none;
+}
+
+.title {
+  margin: 2px;
+  text-align: center;
+}
+
+.Introduction {
+  height: 50vh;
+}
+
+.Detail {
+  height: 70vh;
+  font-size: 25px;
+}
+
+.What_Can_I_Do {
+  height: 50vh;
+}
+
+.Before {
+  height: 50vh;
+}
+
+.After {
+  height: 50vh;
 }
